@@ -1,0 +1,26 @@
+{
+  "swift.path": "/usr/bin/swift",
+  "swift.buildArguments": [
+    "-Xswiftc",
+    "-sdk",
+    "-Xswiftc",
+    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk",
+    "-Xswiftc",
+    "-target",
+    "-Xswiftc",
+    "arm64-apple-ios16.0-simulator"
+  ],
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/build": true,
+    "**/DerivedData": true,
+    "**/*.xcodeproj": false,
+    "**/*.xcworkspace": true
+  },
+  "editor.formatOnSave": true,
+  "[swift]": {
+    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
+  }
+}

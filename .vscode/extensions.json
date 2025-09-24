@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "sswg.swift-lang",
+    "vknabel.vscode-apple-swift-format",
+    "msjsdiag.debugger-for-ios-web",
+    "vadimcn.vscode-lldb",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
